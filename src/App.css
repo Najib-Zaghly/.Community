@@ -1,0 +1,40 @@
+.content-container {
+  min-height: calc(100vh - 34px);
+}
+.footer--pin {
+  position: relative;
+  left: 0;
+  bottom: 0;
+  z-index: 500;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+.right::-webkit-scrollbar {
+  display: none;
+}
+
+.split {
+  height: 100%;
+  width: 82%;
+  position: fixed;
+  overflow-x: hidden;
+  
+}
+.body{
+  width: 100%;
+  min-width: 600px;
+  min-height: 600px;
+ background-color: #f0f3f5;
+}
+
+.left {
+  left: 0;
+  
+}
+
+.right {
+  right: 0;
+  grid-area: main;
+ 
+}
